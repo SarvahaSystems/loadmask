@@ -1,3 +1,4 @@
+// override the default fetch and xmlhttp objects
 const originalXHR = window.XMLHttpRequest;
 function CustomXMLHttpRequest() {
   const xhr = new originalXHR();
